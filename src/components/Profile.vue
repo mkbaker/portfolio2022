@@ -162,7 +162,6 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 0.5em;
     width: 100%;
   }
 

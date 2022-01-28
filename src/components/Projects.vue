@@ -166,11 +166,13 @@ img:hover {
     margin-top: 75%;
   }
   .projects-title {
-    position: absolute;
-    top: 225vh;
+    position: relative;
+    top: 0;
     transform: none;
   }
-
+  .projects-title h1 {
+    transform: none;
+  }
   .project {
     display: flex;
     flex-direction: column;
@@ -187,6 +189,9 @@ img:hover {
 
   .project .project-text {
     order: 2;
+  }
+  .project p {
+    text-align: left;
   }
 }
 </style>

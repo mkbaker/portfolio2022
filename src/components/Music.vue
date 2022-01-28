@@ -129,5 +129,32 @@ img:hover {
     margin: 0.5em;
     margin-top: 75%;
   }
+
+  .music-title {
+    position: relative;
+  }
+  .music-title h1 {
+    transform: none;
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+  }
+  .project img {
+    order: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  .project .project-text {
+    order: 2;
+  }
+
+  .project h3 {
+    text-align: right;
+  }
 }
 </style>
