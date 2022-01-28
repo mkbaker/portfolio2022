@@ -20,13 +20,14 @@
 
         <div class="actions">
           <div class="buttons">
-            <a
+            <!-- <a
               target="_blank"
               href="https://kellenbakerdotcom.s3.amazonaws.com/resume+11.11.21.pdf"
             >
               <button>Resume</button>
-            </a>
+            </a> -->
             <button @click="jumpToProjects">Projects</button>
+            <button @click="jumpToMusic">Music</button>
             <button>Contact me</button>
           </div>
           <div class="icons">
@@ -51,6 +52,10 @@ export default {
     jumpToProjects() {
       let projects = document.getElementById("projects");
       projects.scrollIntoView({ behavior: "smooth" });
+    },
+    jumpToMusic() {
+      let music = document.getElementById("music");
+      music.scrollIntoView({ behavior: "smooth" });
     },
   },
 };

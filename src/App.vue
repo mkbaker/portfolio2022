@@ -4,12 +4,14 @@
 import Intro from "./components/Intro.vue";
 import Profile from "./components/Profile.vue";
 import Projects from "./components/Projects.vue";
+import Music from "./components/Music.vue";
 </script>
 
 <template>
   <Intro />
   <Profile />
   <Projects />
+  <Music />
 </template>
 
 <style>

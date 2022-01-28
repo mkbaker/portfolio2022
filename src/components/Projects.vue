@@ -8,9 +8,8 @@
       <div class="project-text">
         <h3>Congressional Art Competition</h3>
         <p>Custom application built for Congresswoman Ilhan Omar.</p>
-        <button @click="handleilhanSite">Click here</button>
       </div>
-      <img src="../assets/ilhanSite.png" />
+      <img src="../assets/ilhanSite.png" @click="handleilhanSite" />
     </div>
 
     <div class="project">
@@ -20,9 +19,9 @@
           A silly blog I made to explore routing and data management with
           Laravel.
         </p>
-        <button @click="handleDogBlog">Click here</button>
       </div>
       <img
+        @click="handleDogBlog"
         src="https://images.unsplash.com/photo-1534361960057-19889db9621e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"
       />
     </div>
@@ -34,9 +33,8 @@
           A crowdfunding platform where users can host online auctions to
           benefit community members facing medical expenses.
         </p>
-        <button @click="handleSilentAction">Click here</button>
       </div>
-      <img src="../assets/silentAction.png" />
+      <img src="../assets/silentAction.png" @click="handleSilentAction" />
     </div>
 
     <div class="project">
@@ -47,9 +45,8 @@
           nonprofit WithAll. This link brings you to a copy of the code I helped
           build.
         </p>
-        <button @click="handleWithAll">Click here</button>
       </div>
-      <img src="../assets/fiveHealthyPhrases.png" />
+      <img src="../assets/fiveHealthyPhrases.png" @click="handleWithAll" />
     </div>
 
     <div class="color-pop-right"></div>
@@ -91,6 +88,7 @@ export default {
   min-height: 100vh;
   height: 100vh;
   /* margin: 1em; */
+  margin-bottom: 20vh;
 }
 
 .projects-title {
@@ -138,6 +136,10 @@ export default {
   height: 200px;
   width: 300px;
   padding-left: 15px;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
 .color-pop-right {
