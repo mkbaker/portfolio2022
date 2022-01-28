@@ -28,7 +28,7 @@
             </a> -->
             <button @click="jumpToProjects">Projects</button>
             <button @click="jumpToMusic">Music</button>
-            <button>Contact me</button>
+            <!-- <button>Contact me</button> -->
           </div>
           <div class="icons">
             <a href="https://gitlab.com/mkellenbaker" target="_blank">
