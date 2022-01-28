@@ -38,6 +38,26 @@
 <script>
 export default {
   name: "Music",
+  methods: {
+    handleGranddad() {
+      window.open(
+        "https://granddad.bandcamp.com",
+        "_blank"
+      );
+    },
+    handleAtmik() {
+      window.open(
+        "https://atmik.bandcamp.com",
+        "_blank"
+      );
+    },
+    handleSonicPi() {
+      window.open(
+        "https://gitlab.com/mkellenbaker/sonic-pi",
+        "_blank"
+      );
+    }
+  }
 };
 </script>
 
